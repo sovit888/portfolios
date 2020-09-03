@@ -454,7 +454,7 @@ html {
 /* End Footer section  */
 
 /* Media query for desktop and tab  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 796px) {
   .nav-bar .brand a {
     font-size: 2.1rem;
   }
@@ -518,9 +518,16 @@ html {
   }
 }
 /* End Media query for desktop and tab  */
-@media only screen and (max-width: 954px) {
+@media only screen and (max-width: 1054px) {
   .nav-bar .nav-list ul li a {
     font-size: 1.3rem;
+  }
+  .services .services-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services .services-info .service {
+    margin: 3px 2px;
   }
 }
 
